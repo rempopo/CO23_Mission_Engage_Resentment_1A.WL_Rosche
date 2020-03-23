@@ -3,7 +3,7 @@
 // MAIN BASE
 
 [
-	"bridge_patrol" /* Zone Name */
+	"patrol_bridge" /* Zone Name */
 	,"WEST",true, /* Side, is Active */ [],[]
 	/* Groups: */
 	,[
@@ -30,7 +30,7 @@
 ]
 ,
 [
-	"bridge_patrol_2" /* Zone Name */
+	"patrol_bridge_2" /* Zone Name */
 	,"WEST",true, /* Side, is Active */ [],[]
 	/* Groups: */
 	,[
@@ -48,7 +48,7 @@
 ]
 ,
 [
-	"radar_patrol" /* Zone Name */
+	"patrol_radar" /* Zone Name */
 	,"WEST",true, /* Side, is Active */ [],[]
 	/* Groups: */
 	,[
@@ -77,7 +77,7 @@
 ]
 ,
 [
-	"road_patrol" /* Zone Name */
+	"patrol_road" /* Zone Name */
 	,"WEST",true, /* Side, is Active */ [],[]
 	/* Groups: */
 	,[
@@ -104,7 +104,7 @@
 			1, /* Groups quantity */
 			/* Units */
 			[
-				["RHS_M2A2_wd", "Vehicle Patrol", "kit_us_cargo"]
+				["RHS_M2A2_wd", "Vehicle Advance", "kit_us_cargo"]
 				,["B_Soldier_F", [0,"Commander"], "kit_us_random"]
 				,["B_Soldier_F", [0,"Gunner"], "kit_us_random"]
 				,["B_Soldier_F", [0,"Driver"], "kit_us_random"]
@@ -121,11 +121,48 @@
 				["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
-				,["rhsusf_m1025_w_m2", "Vehicle Hold", "kit_us_cargo"]
+				,["rhsusf_m1025_w_m2", "Vehicle Advance", "kit_us_cargo"]
 				,["B_Soldier_F", [3,"Driver"], "kit_us_random"]
 			]
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["FULL","SAFE","YELLOW","WEDGE"]
+]
+,
+[
+	"patrol_vehicle" /* Zone Name */
+	,"WEST",true, /* Side, is Active */ [],[]
+	/* Groups: */
+	,[
+		[
+			5, /* Groups quantity */
+			/* Units */
+			[
+				["rhsusf_m1043_w", "Vehicle Road Patrol", "kit_us_cargo"]
+				,["B_Soldier_F", [0,"Driver"], "kit_us_random"]
+				,["B_Soldier_F", [0,"Cargo"], "kit_us_random"]
+			]
+		]
+	]
+	/* Behavior: Speed, Behavior, Combat mode, Formation */
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
+]
+,
+[
+	"patrol_aa" /* Zone Name */
+	,"WEST",true, /* Side, is Active */ [],[]
+	/* Groups: */
+	,[
+		[
+			3, /* Groups quantity */
+			/* Units */
+			[
+				["B_Soldier_F", [], "kit_us_random"]
+				,["B_Soldier_F", [], "kit_us_random"]
+			]
+		]
+	]
+	/* Behavior: Speed, Behavior, Combat mode, Formation */
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
 ]

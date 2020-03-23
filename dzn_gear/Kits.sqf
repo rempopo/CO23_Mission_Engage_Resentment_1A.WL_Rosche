@@ -118,7 +118,7 @@ kit_sov_ss = [
 kit_sov_gr = [
 	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_rifleman_khaki","RD_54_69",SOV_HEAD,""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM_GL","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","",NIGHT_SCOPE,""]],
-	["<LAUNCHER WEAPON >>  ","rhs_weap_rshg2","rhs_rshg2_mag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_igla","rhs_mag_9k38_rocket",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
@@ -134,6 +134,16 @@ kit_sov_mm = [
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",5]]],
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",5],["DemoCharge_Remote_Mag",2],["ACE_Clacker",1],["ACE_wirecutter",1],[NIGHT_SCOPE,1]]]
+];
+kit_sov_r = [
+	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_rifleman_khaki","RD_54_69",SOV_HEAD,""],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","","CUP_optic_PSO_1_AK_open_pip",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_rpg26","rhs_rpg26_mag",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["rhs_mag_rgd5",3],["PRIMARY MAG",5]]],
+	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["ACE_wirecutter",1],["ACE_DefusalKit",1],["DemoCharge_Remote_Mag",3],["PRIMARY MAG",2]]]
 ];
 kit_sov_cargo = [
 	[["CUP_srifle_SVD",3],["rhs_weap_rpg26",3]],

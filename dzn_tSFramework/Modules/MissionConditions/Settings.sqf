@@ -48,7 +48,7 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  */
 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", {[ TRG, "west", "", "< 2"] call dzn_fnc_ccUnits && !alive TGT && {call fnc_CheckPlayersReturned}}, "All objectives done", 30 ];
-MissionCondition2 = [ "FAIL", {call fnc_CheckPlayersReturned}, "Mission failed, players escaped", 30 ];
-MissionCondition3 = [ "PARTFAIL", {[ TRG, "west", "", "< 2"] call dzn_fnc_ccUnits && {call fnc_CheckPlayersReturned}}, "Bridge captured, players escaped", 30 ];
+MissionCondition1 = [ "WIN_FULL", { !alive EXP1 && !alive EXP2 && !alive TGT1 && !alive TGT2 && {[ TRG_FARP, "west", "", "< 2"] call dzn_fnc_ccUnits} && {call fnc_CheckPlayersReturned} }, "All objectives done" ];
+MissionCondition2 = [ "WIN_PART", { !alive EXP1 && !alive EXP2 && !alive TGT1 && !alive TGT2 && {call fnc_CheckPlayersReturned} }, "Main objectives done" ];
+MissionCondition3 = [ "RETREAT", { !alive TGT1 && !alive TGT2 && {call fnc_CheckPlayersReturned} }, "All retreated", 30 ];
 MissionCondition4 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];

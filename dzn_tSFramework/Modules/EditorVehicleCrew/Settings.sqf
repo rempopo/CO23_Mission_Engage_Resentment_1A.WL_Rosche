@@ -43,6 +43,7 @@ CREW_CONFIG_TABLE
 	,["OPFOR GNR"			,[["gunner"], OPFOR_CREW_CONFIG_DEFAULT]]
 	,["OPFOR DRV"			,[["driver"], OPFOR_CREW_CONFIG_DEFAULT]]
 	
+
 	,[ 
 		"NATO M113 Crew" // Config Name
 		, [ 
@@ -65,5 +66,6 @@ CREW_CONFIG_TABLE
 			, "B_Soldier_F"		// Crew classname
 		] 
 	]
+
 CREW_CONFIG_TABLE_END
 

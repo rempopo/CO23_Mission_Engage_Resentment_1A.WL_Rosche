@@ -49,6 +49,6 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 [] spawn {
 
 waitUntil { !isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
-sleep 60*45;
-[reinf, [getPosATL RADAR, getPosATL BRIDGE], "SAD"] call dzn_fnc_dynai_moveGroups;
+!alive TGT1;
+[reinf, getPosATL RADAR, "SAD"] call dzn_fnc_dynai_moveGroups;
 }; 

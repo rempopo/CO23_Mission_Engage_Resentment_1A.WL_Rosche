@@ -12,7 +12,7 @@
 
 
 
-A "216 %1Командир взвода@216" TO "kit_sov_pl" KIT
+A "210 %1Командир взвода@210" TO "kit_sov_pl" KIT
 , A "Зам. командира взвода" TO "kit_sov_sl" KIT
 , A "211 %1Командир отделения@211" TO "kit_sov_sl" KIT
 , A "Пулеметчик" TO "kit_sov_ar" KIT
@@ -20,6 +20,7 @@ A "216 %1Командир взвода@216" TO "kit_sov_pl" KIT
 , A "Стрелок, помощник гранатометчика" TO "kit_sov_aat" KIT
 , A "BLUE - Старший стрелок" TO "kit_sov_ss" KIT
 , A "Стрелок (ГП)" TO "kit_sov_gr" KIT
+, A "Стрелок" TO "kit_sov_r" KIT
 , A "Снайпер" TO "kit_sov_mm" KIT
 , A "212 %1Командир отделения@212" TO "kit_sov_sl" KIT
 , A "213 %1Командир отделения@213" TO "kit_sov_sl" KIT
