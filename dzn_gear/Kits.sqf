@@ -56,7 +56,7 @@
 #define US_HEAD ["CUP_H_PASGTv2_WDL","CUP_H_PASGTv2_WDL_CF","CUP_H_PASGTv2_WDL_GG"]
 
 kit_sov_pl = [
-	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_officer_khaki","RD_54_69_R148",SOV_HEAD,""],
+	["<EQUIPEMENT >>  ","rhs_uniform_gorka_1_a","rhs_6b5_officer_khaki","RD_54_69_R148",SOV_HEAD,""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AKMS","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","",NIGHT_SCOPE,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
@@ -66,7 +66,7 @@ kit_sov_pl = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_sov_sl = [
-	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_officer_khaki","RD_54_69_R148",SOV_HEAD,""],
+	["<EQUIPEMENT >>  ","rhs_uniform_gorka_1_a","rhs_6b5_officer_khaki","RD_54_69_R148",SOV_HEAD,""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM_GL","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","",NIGHT_SCOPE,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
