@@ -9,7 +9,7 @@ MissionDate = [
 	, date select 2
 	, switch ("par_daytime" call BIS_fnc_getParamValue) do {
 		case 0: { [10, 6] call _fnc_getRandomHrs };
-		case 1: { [21, 8] call _fnc_getRandomHrs };
+		case 1: { [23, 3] call _fnc_getRandomHrs };
 		case 2: { round(random 24) };
 	}
 	, selectRandom [0,10,15,20,25,30,40,45,50]
@@ -49,6 +49,8 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 [] spawn {
 
 waitUntil { !isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
-!alive TGT1;
-[reinf, getPosATL RADAR, "SAD"] call dzn_fnc_dynai_moveGroups;
+[{ !alive TGT1 }, {
+	reinf call dzn_fnc_dynai_activateZone;
+	[{ [reinf, getPosATL RADAR, "SAD"] call dzn_fnc_dynai_moveGroups; }, [], 30] call CBA_fnc_waitAndExecute;
+}] call CBA_fnc_waitUntilAndExecute;
 }; 

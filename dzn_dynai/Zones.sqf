@@ -60,17 +60,6 @@
 				,["B_Soldier_F", [], "kit_us_random"]
 			]
 		]
-		,[
-			1, /* Groups quantity */
-			/* Units */
-			[
-				["B_Soldier_F", ["indoors"], "kit_us_random"]
-				,["B_Soldier_F", ["indoors"], "kit_us_random"]
-				,["B_Soldier_F", ["indoors"], "kit_us_random"]
-				,["B_Soldier_F", ["indoors"], "kit_us_random"]
-				,["B_Soldier_F", ["indoors"], "kit_us_random"]
-			]
-		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","SAFE","YELLOW","WEDGE"]

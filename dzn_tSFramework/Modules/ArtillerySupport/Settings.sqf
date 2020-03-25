@@ -81,8 +81,8 @@ tSF_ArtillerySupport_VirtualFiremissionsProperties = [
 		, 1
 	]
 	,[
-		"105mm Howitzer"
-		, [HE_RNDS(2,"8Rnd_82mm_Mo_shells"), SMK_RNDS(9,"8Rnd_82mm_Mo_Smoke_white"), ILLUM_RNDS(9,"8Rnd_82mm_Mo_Flare_white")]
+		"122мм гаубица Д-30"
+		, [HE_RNDS(2,"8Rnd_82mm_Mo_shells"), SMK_RNDS(9,"8Rnd_82mm_Mo_Smoke_white"), ILLUM_RNDS(12,"8Rnd_82mm_Mo_Flare_white")]
 		, [300, 12000]
 		, [25, 60]
 		, 3
