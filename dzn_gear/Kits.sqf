@@ -119,7 +119,7 @@ kit_sov_ss = [
 kit_sov_gr = [
 	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_rifleman_khaki","RD_54_69",SOV_HEAD,""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM_GL","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","","",""]],
-	["<LAUNCHER WEAPON >>  ","rhs_weap_rpg26","rhs_mag_9k38_rocket",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_rpg26","rhs_rpg26_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
