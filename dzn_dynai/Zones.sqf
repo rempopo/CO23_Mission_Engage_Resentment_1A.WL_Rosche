@@ -86,21 +86,23 @@
 ,
 [
 	"reinf" /* Zone Name */
-	,"WEST",true, /* Side, is Active */ [],[]
+	,"WEST",false, /* Side, is Active */ [],[]
 	/* Groups: */
 	,[
 		[
 			1, /* Groups quantity */
 			/* Units */
 			[
-				["RHS_M2A2_wd", "Vehicle Advance", "kit_us_cargo"]
-				,["B_Soldier_F", [0,"Commander"], "kit_us_random"]
-				,["B_Soldier_F", [0,"Gunner"], "kit_us_random"]
-				,["B_Soldier_F", [0,"Driver"], "kit_us_random"]
+				["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
+				,["B_Soldier_F", [], "kit_us_random"]
+				,["RHS_M2A2_wd", "Vehicle Advance", "kit_us_cargo"]
+				,["B_Soldier_F", [6,"Commander"], "kit_us_random"]
+				,["B_Soldier_F", [6,"Gunner"], "kit_us_random"]
+				,["B_Soldier_F", [6,"Driver"], "kit_us_random"]
 			]
 		]
 		,[
@@ -110,13 +112,16 @@
 				["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
 				,["B_Soldier_F", [], "kit_us_random"]
-				,["rhsusf_m1025_w_m2", "Vehicle Advance", "kit_us_cargo"]
+				,["rhsusf_m1025_w_m", "Vehicle Advance", "kit_us_cargo"]
+				,["B_Soldier_F", [3,"Gunner"], "kit_us_random"]
 				,["B_Soldier_F", [3,"Driver"], "kit_us_random"]
 			]
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
-	,["FULL","SAFE","YELLOW","WEDGE"]
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
+	 /* (OPTIONAL) Activation condition */
+	,{ !alive TGT1 }
 ]
 ,
 [

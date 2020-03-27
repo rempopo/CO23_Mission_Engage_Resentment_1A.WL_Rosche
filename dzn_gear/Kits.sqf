@@ -40,9 +40,9 @@
 #define NIGHT_ITEM(X)	if (daytime < 9 || daytime > 18) then { X } else { "" }
 
 // ******** ASSIGNED and UNIFORM ITEMS MACRO ********
-#define NVG_NIGHT_ITEM		if (daytime < 9 || daytime > 18) then { "CUP_NVG_PVS7" } else { "" }
+#define NVG_NIGHT_ITEM		if (daytime < 6 || daytime > 18) then { "CUP_NVG_PVS7" } else { "" }
 #define BINOCULAR_ITEM		"Binocular"
-#define NIGHT_SCOPE 		if (daytime < 9 || daytime > 18) then { "CUP_optic_NSPU" } else { "" }
+#define NIGHT_SCOPE 		if (daytime < 6 || daytime > 18) then { "CUP_optic_NSPU" } else { "" }
 
 #define ASSIGNED_ITEMS		"ItemMap","ItemCompass","ItemWatch", NVG_NIGHT_ITEM
 #define ASSIGNED_ITEMS_L	"ItemMap","ItemCompass","ItemWatch","ItemRadio", BINOCULAR_ITEM, NVG_NIGHT_ITEM
@@ -141,7 +141,7 @@ kit_sov_mm = [
 ];
 kit_sov_mm_vss = [
 	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_sniper_khaki","RD_54_69",SOV_HEAD,""],
-	["<PRIMARY WEAPON >>  ","CUP_srifle_VSSVintorez","CUP_20Rnd_9x39_SP5_VSS_M",["","","CUP_optic_PSO_1",""]],
+	["<PRIMARY WEAPON >>  ","CUP_srifle_VSSVintorez","CUP_20Rnd_9x39_SP5_VSS_M",["","","CUP_optic_PSO_1_1",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
