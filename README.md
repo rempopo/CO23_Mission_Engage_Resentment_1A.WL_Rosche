@@ -7,8 +7,8 @@
 ### Version: 1A
 
 
-# NOT APPROVED
+# APPROVED
 | Reviewer | Result |
 | ------------ | ------------- |
 | Comrade | Approved |
-|  |  |
+| 10Dozen | Approved |
