@@ -56,9 +56,12 @@
 #define US_UNI ["CUP_U_B_BDUv2_M81","CUP_U_B_BDUv2_dirty_M81","CUP_U_B_BDUv2_roll2_M81","CUP_U_B_BDUv2_roll_M81","CUP_U_B_BDUv2_roll_gloves_dirty_M81"]
 #define US_HEAD ["CUP_H_PASGTv2_WDL","CUP_H_PASGTv2_WDL_CF","CUP_H_PASGTv2_WDL_GG"]
 #define US_NVG ["CUP_NVG_PVS7","","","",""] 
+#define sov_w_r ["CUP_arifle_AKMS","CUP_arifle_AKM"]
+#define sov_a_r ["CUP_30Rnd_762x39_AK47_bakelite_M","CUP_30Rnd_762x39_AK47_bakelite_M"]
+
 kit_sov_pl = [
 	["<EQUIPEMENT >>  ","rhs_uniform_gorka_1_a","rhs_6b5_officer_khaki","RD_54_69_R148",SOV_HEAD,""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AKMS","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","",NIGHT_SCOPE,""]],
+	["<PRIMARY WEAPON >>  ",sov_w_r,sov_a_r,["CUP_muzzle_Bizon","",NIGHT_SCOPE,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhs_weap_makarov_pm","rhs_mag_9x18_8_57N181S",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -88,7 +91,7 @@ kit_sov_ar = [
 ];
 kit_sov_at = [
 	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_rifleman_khaki","CUP_B_RPGPack_Khaki",SOV_HEAD,""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","",NIGHT_SCOPE,""]],
+	["<PRIMARY WEAPON >>  ",sov_w_r,sov_a_r,["CUP_muzzle_Bizon","",NIGHT_SCOPE,""]],
 	["<LAUNCHER WEAPON >>  ","CUP_launch_RPG7V","CUP_PG7V_M",["","","CUP_optic_PGO7V2",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -98,7 +101,7 @@ kit_sov_at = [
 ];
 kit_sov_aat = [
 	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_rifleman_khaki","CUP_B_RPGPack_Khaki",SOV_HEAD,""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","","",""]],
+	["<PRIMARY WEAPON >>  ",sov_w_r,sov_a_r,["CUP_muzzle_Bizon","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -148,7 +151,7 @@ kit_sov_mm_vss = [
 ];
 kit_sov_r = [
 	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_rifleman_khaki","RD_54_69",SOV_HEAD,""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","","",""]],
+	["<PRIMARY WEAPON >>  ",sov_w_r,sov_a_r,["CUP_muzzle_Bizon","","",""]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_rpg26","rhs_rpg26_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -158,7 +161,7 @@ kit_sov_r = [
 ];
 kit_sov_medic = [
 	["<EQUIPEMENT >>  ",SOV_UNI,"rhs_6b5_rifleman_khaki","RD_54_69",SOV_HEAD,""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM","CUP_30Rnd_762x39_AK47_bakelite_M",["CUP_muzzle_Bizon","","",""]],
+	["<PRIMARY WEAPON >>  ",sov_w_r,sov_a_r,["CUP_muzzle_Bizon","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
